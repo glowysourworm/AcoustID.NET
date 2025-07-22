@@ -19,11 +19,21 @@ namespace AcoustID.Web
         /// <param name="id">The AcoustID.</param>
         /// <param name="score">The score (between 0 and 1).</param>
         public LookupResult(string id, double score)
+            : this(id, score, new Recording[] { })
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="LookupResult" /> class.
+        /// </summary>
+        /// <param name="id">The AcoustID.</param>
+        /// <param name="score">The score (between 0 and 1).</param>
+        /// <param name="recordings">Set of recording results</param>
+        public LookupResult(string id, double score, IEnumerable<Recording> recordings)
         {
             this.Id = id;
             this.Score = score;
-
-            this.Recordings = new List<Recording>();
+            this.Recordings = new List<Recording>(recordings);
         }
 
         /// <summary>

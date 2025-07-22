@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>AcoustID.NET</PackageId>
     <Description>AcoustID fingerprinter and webservice access.</Description>
@@ -22,6 +22,7 @@
     <RootNamespace>AcoustID</RootNamespace>
     <Configurations>Debug;Release</Configurations>
     <PackageLicenseUrl>https://github.com/acoustid/chromaprint/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageOutputPath>$(NugetLocalPath)</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
