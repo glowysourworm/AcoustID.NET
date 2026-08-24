@@ -1,6 +1,6 @@
 # AcoustID.NET
 
-[![Build status](https://img.shields.io/appveyor/build/wo80/acoustid-net?style=for-the-badge)](https://ci.appveyor.com/project/wo80/acoustid-net)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/wo80/AcoustID.NET/dotnet.yml?style=for-the-badge)](https://github.com/wo80/AcoustID.NET/actions/workflows/dotnet.yml)
 [![Nuget downloads](https://img.shields.io/nuget/dt/acoustid?style=for-the-badge)](https://www.nuget.org/packages/AcoustID.NET)
 [![open issues](https://img.shields.io/github/issues/wo80/acoustid.net?style=for-the-badge)](https://github.com/wo80/AcoustID.NET/issues)
 
